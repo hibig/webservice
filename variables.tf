@@ -19,7 +19,7 @@ variable "env" {
   default     = {}
 }
 # @label "Replicas"
-# @group "Basic"
+# @group "Basic//"
 variable "replicas" {
   type        = number
   description = "Replicas to deploy"
