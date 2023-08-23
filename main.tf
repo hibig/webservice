@@ -63,16 +63,16 @@ locals {
   namespace = coalesce(var.namespace, var.walrus_metadata_namespace_name)
 }
 
-# @label "Test Environment Variables"
-# @group "test"
-variable "test_env" {
+# @label "Test Environment Variables_1"
+# @group ""
+variable "test_env_1" {
   type        = map(string)
   description = "Name and value pairs to set as the environment variables"
   default     = {}
 }
-# @label "Test Replicas"
-# @group "test"
-variable "test_replicas" {
+# @label "Test Replicas_1"
+# @group ""
+variable "test_replicas_1" {
   type        = number
   description = "Replicas to deploy"
   default     = 1
