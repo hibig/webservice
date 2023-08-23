@@ -65,7 +65,7 @@ locals {
 
 # @label "Test Environment Variables_1"
 # @group ""
-variable "test_env_1" {
+variable "atest_env_1" {
   type        = map(string)
   description = "Name and value pairs to set as the environment variables"
   default     = {}
