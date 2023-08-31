@@ -7,8 +7,8 @@ variable "image" {
 # @label "test_1"
 # @group ""
 variable "test_1" {
-  type        = dynamic
-  description = "Docker image name"
+  type        = any
+  description = "test_1"
 }
 # @label "Ports"
 # @group ""

@@ -22,3 +22,9 @@ variable "test_replicas" {
   description = "Replicas to deploy"
   default     = 1
 }
+# @label "test_2"
+# @group "test"
+variable "test_2" {
+  type        = any
+  description = "test_2"
+}
