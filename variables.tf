@@ -4,6 +4,12 @@ variable "image" {
   type        = string
   description = "Docker image name"
 }
+# @label "test_1"
+# @group ""
+variable "test_1" {
+  type        = dynamic
+  description = "Docker image name"
+}
 # @label "Ports"
 # @group ""
 variable "ports" {
