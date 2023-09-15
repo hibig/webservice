@@ -1,5 +1,5 @@
 # @label "Image Name"
-# @group ""
+# @group "基本配置/Image"
 variable "image" {
   type        = string
   description = "Docker image name"
@@ -11,7 +11,7 @@ variable "test_1" {
   description = "test_1"
 }
 # @label "Ports"
-# @group ""
+# @group "基本配置/Ports"
 variable "ports" {
   type        = list(number)
   description = "Service ports to expose"
@@ -25,7 +25,7 @@ variable "env" {
   default     = {}
 }
 # @label "Replicas"
-# @group ""
+# @group "基本配置/Replicas"
 variable "replicas" {
   type        = number
   description = "Replicas to deploy"
